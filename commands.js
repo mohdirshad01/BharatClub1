@@ -1,5 +1,5 @@
 import { Start } from "./Start.js";
-import { bot } from "../server.js";
+import { bot } from "./server.js";
 import { askForChannelAndSave } from "./addChannel.js";
 import { askForChannelAndRemove } from "./removeChannel.js";
 import { Admin } from "./Admin.js";
