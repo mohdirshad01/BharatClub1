@@ -67,7 +67,7 @@ export async function depositBonus(msg) {
         }
 
         const storedLink = checkLink.link;
-        const giftText = "<b>✅  Bharat Club Highest Double Deposit Bonus Offer !! 🔥\n\n🔸Deposit ₹100 & Get Extra ₹30\n\n🔸Deposit ₹300 & Get Extra ₹100\n\n🔸Deposit ₹500 & Get Extra ₹150\n\n🔸Deposit ₹1000 & Get Extra ₹200\n\n👉Minimum Withdrawal ₹110\n\n🔗 Register Here:: " + storedLink + "\n\n❤️ Payment Fully Verified !! 🫦🔥</b>";
+        const giftText = "<b>✅ Bharat Club Highest Double Deposit Bonus Offer !! 🔥\n\n🔸Deposit ₹100 & Get Extra ₹30\n\n🔸Deposit ₹300 & Get Extra ₹100\n\n🔸Deposit ₹500 & Get Extra ₹150\n\n🔸Deposit ₹1000 & Get Extra ₹200\n\n👉Minimum Withdrawal ₹110\n\n🔗 Register Here:: " + storedLink + "\n\n❤️ Payment Fully Verified !! 🫦🔥</b>";
         const giftImage = "https://i.ibb.co/vcg9fqr/IMG.jpg";
         await bot.sendPhoto(chatId, giftImage, {
             caption: giftText,
